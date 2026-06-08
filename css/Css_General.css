@@ -1,0 +1,376 @@
+body{
+    background-image: url(../img/IMAGEN.avif);
+}
+.padre{
+    background-color: rgb(241, 179, 184);
+    border: 15px;
+    padding: 35px;
+    margin: 15px;
+}
+header, footer, .tabla{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+header{
+    background-color: rgb(205, 131, 131) ;
+    padding: 20px; 
+}
+
+header h1{
+    margin: 0;
+    font-weight: bolder;
+   font-family: 'Arial Black', 'Impact', sans-serif;
+    font-size: 60px;
+    font-style: unset;
+    letter-spacing: 15px;
+    color: rgb(43, 8, 10);
+}
+section h1{
+   font-family: fantasy;
+    color: rgb(43, 8, 10);
+    font-weight: bold;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+.contenido{
+    
+    display: flex;
+    margin: 10px;
+}
+.tabla{ background-color: rgb(240, 192, 192);
+    padding: 30px;
+    font-family: cursive;
+    height: 100%;
+}
+nav p{
+    text-align: center;
+}
+nav p a{
+color: rgb(88, 28, 46);
+    
+    text-decoration: none;
+}
+nav p a:hover{
+    color: rgb(13, 7, 7);
+}
+td{
+    display: flex;
+    
+    background-color: rgb(185, 119, 119);
+    padding: 10px;
+    margin: 10px;
+    width: 140px;
+    border: 3px outset rgb(119, 45, 45);
+    border-radius: 7px;    
+}
+td a{
+    text-decoration: none;
+    color: rgb(241, 198, 201);
+    text-align: center;
+}
+td :hover{
+    color: rgb(78, 21, 21);
+}
+.C1, section{
+    border: 10px;
+    padding: 15px;
+
+}
+.C1{
+    width: 20%;
+    background-color: rgb(228, 139, 139);
+    margin-right: 5px;
+    height: 100%;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(129, 48, 72);
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(171, 65, 97);
+}
+section{
+    background-color: rosybrown;
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+}
+section{
+    padding: 20px;
+    text-align: justify;
+}
+
+section h1{
+    text-align: center;
+    color: rgb(72, 10, 55);
+}
+
+section h2{
+    color: rgb(98, 22, 22);
+}
+
+section ul, section ol{
+    font-size: larger;
+    margin-left: 30px;
+}
+
+section .tablapag1{
+    border: black dotted 2px;
+    width: 39%;
+    margin: auto;
+}
+
+section table, section th, section td{
+    border: 1px solid black;
+}
+
+section th{
+    background-color: #823232;
+    width: 45.3%;
+    padding: 5px;
+}
+section td, section th{
+    align-items: center;
+    padding: 8px;
+    text-align: center;
+    display: inline-flex;
+}
+section td{
+    width: 40%;
+}
+
+section img{
+    display: block;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+section a{
+    text-decoration: none;
+    color: rgb(236, 43, 78);
+    font-weight: bold;
+}
+
+section a:hover{
+    color: rgb(137, 26, 33);
+}
+footer{
+    font-family: monospace;
+    background-color: rgb(205, 140, 140) ;
+    padding: 10px;
+   
+}
+footer h3{
+    font-family: monospace;
+    color: rgb(48, 12, 12);
+}
+ul li {
+    margin-left: 20%;
+    align-items: center;
+    font-family: monospace;
+}
+    .fila{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+        
+    margin: 30px 0;
+
+}
+
+
+
+.caja1,
+.caja2,
+.caja3,
+.caja4{
+    width: 500px;
+    height: 150px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bandera{
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+}
+.rojo, .amarillo, .verde{
+    width: 100%;
+    height: 33%;
+}
+.rojo{
+    background: red;
+}
+
+.amarillo{
+    background: yellow;
+}
+
+.verde{
+    
+    background: green;
+}
+
+.naranja{
+    width: 100%;
+    height: 100%;
+    background: orange;
+    border: 3px solid black;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.azul{
+    width: 170px;
+    height: 90px;
+    background: blue;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.amarilloCentro{
+    width: 80px;
+    height: 45px;
+    background: yellow;
+}
+
+.caja3{
+    border: 3px solid black;
+}
+.rojo2, .amarillo2, .verde2{
+    width: 33%;
+    height: 100%;
+}
+.rojo2{
+    background: red;
+}
+
+.amarillo2{
+    
+    background: yellow;
+}
+
+.verde2{
+
+    background: green;
+}
+
+
+.negro{
+    width: 100%;
+    height: 180px;
+    background: black;
+    border-radius: 50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.plomo{
+    width: 150px;
+    height: 110px;
+    background: gray;
+    border-radius: 50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.amarilloCirculo{
+    width: 50px;
+    height: 50px;
+    background: rosybrown;
+    border-radius: 50%;
+}   
+.formulario {
+color: rgb(13, 13, 1);
+  width: 40%;
+  margin-left: 25%;
+  background-image: url(../img/WhatsApp\ Image\ 2026-06-08\ at\ 12.25.25\ PM.jpeg);
+  background-size:100%;
+    padding: 40px;
+  padding-right: 50PX;
+  border-radius: 10px;
+  border: 2px dotted black ;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 10px;
+  color: rgb(112, 19, 53);
+  text-align: center;
+}
+
+.formulario input, .formulario select{
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  font-family: monospace;
+}
+
+button {
+ 
+  margin-top: 15px;
+  width: 50%;
+  padding: 10px;
+  background:rgb(220, 89, 128); 
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+.boton{
+    display: flex;
+    margin-left: 33%;
+}
+button:hover {
+  background: rgb(176, 66, 99); 
+  color: black;
+}
+#mensaje{
+    margin-top: 15px;
+    font-weight: bold;
+}
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(91, 17, 17);
+    text-align: center;
+    
+    padding: 10px;
+
+}
+.resultado2{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: pink;
+}
+#resultado2{
+    font-size: larger;
+    font-family: monospace;
+    text-align: center;
+    color: brown;
+
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/Css_General.css">
+</head>
+<body>
+    <div class="padre">
+        <header>
+            <h1>MI PÁGINA </h1>
+        </header>
+        <div class="contenido">
+        <div class="C1">
+        <nav><table class="tabla">
+        <tr><th><h3>MENU</h3></th></tr>
+        <tr><td><a href="../pags/pag1.html">PAGINA 1 HTML</a></td></tr>
+        <tr><td><a href="../pags/pag2.html">PAGINA 2 CSS</a></td></tr>
+        <tr><td><a href="../pags/pag3.html">PAGINA 3 JS</a></td></tr>
+        <tr><td><a href="#">PAGINA 4 JS</a></td>
+        </tr><tr><td><a href="pags/prueba.html">API KEYS</a></td></tr></table>
+        <p><a href="../index.html">Volver a la pagina de inicio</a></p>
+        </nav>
+        </div>
+<script src="../js/pag4.js"></script>        
+<section>
+
+    <h2>CONVERSOR DE BASES</h2>
+
+    <form class="formulario">
+
+        <label>Base de Origen:</label><br>
+
+        <select id="baseOrigen">
+            <option value="2">Binario (2)</option>
+            <option value="8">Octal (8)</option>
+            <option value="10">Decimal (10)</option>
+            <option value="16">Hexadecimal (16)</option>
+        </select>
+
+        <br><br>
+
+        <label>Número:</label><br>
+        <input type="text"
+               id="numero"
+               placeholder="Ingrese un número">
+
+        <br><br>
+
+        <label>Base Destino:</label><br>
+
+        <select id="baseDestino">
+            <option value="2">Binario (2)</option>
+            <option value="8">Octal (8)</option>
+            <option value="10">Decimal (10)</option>
+            <option value="16">Hexadecimal (16)</option>
+        </select>
+
+        <br><br>
+        <div class="boton">
+        <button type="button" onclick="convertir()">
+            Ver Resultado
+        </button></div>
+
+    </form>
+
+    <br>
+<div class="resultado2">
+    <h3>Resultado:</h3>
+
+    <p id="resultado2"></p></div>
+</section>
+        </div>
+        <footer>
+            <h3>Desarrollado por Britny Sharon Laruta Nina - 2026</h3>
+        </footer>
+    </div>
+</body>
+</html>
